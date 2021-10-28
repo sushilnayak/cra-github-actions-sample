@@ -2,6 +2,7 @@
   "name": "cra-github-actions-sample",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sushilnayak.github.io/cra-github-actions-sample",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
+    "cypress": "^8.7.0",
+    "eslint-plugin-cypress": "^2.12.1"
   }
 }
