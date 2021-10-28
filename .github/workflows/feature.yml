@@ -2,10 +2,10 @@ name: Feature Tests
 
 on:
   push:
-    branches: [ '*' ]
     branches-ignore:
       - 'master'
       - 'release*'
+      - 'staging*'
 jobs:
   build_test:
     runs-on: ubuntu-latest
